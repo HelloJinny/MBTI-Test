@@ -36,12 +36,12 @@ async function copyToClipboard() {
 
     document.execCommand('copy')
     document.body.removeChild(textarea)
-    alert('링크를 복사했어요 ><')
+    alert('URL을 복사했습니다.')
     return
   }
   if (isSupportedClipboard) {
     await navigator.clipboard.writeText(location.href)
-    alert('링크를 복사했어요 ><')
+    alert('URL을 복사했습니다.')
   }
 }
 

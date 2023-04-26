@@ -1,11 +1,11 @@
 body {
     background-image: url("../images/questions_bg.jpg");
     background-position: top center;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
 }
 
 .progress {
-    max-width: 50px;
+    max-width: 420px;
     height: 20px;
     background-color: #FFFFFF;
     margin-left: auto;
@@ -22,12 +22,10 @@ body {
     transition: 0.2s;
 }
 
-.question-box {max-width: 420px;
+.question-box {
+    max-width: 420px;
     background-color: #FFFFFF;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 60px 40px 60px 60px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
