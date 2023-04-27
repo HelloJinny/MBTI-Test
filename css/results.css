@@ -70,3 +70,18 @@ body {
     margin-bottom: 40px;
     width: 100%;
 }
+
+.share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 5px 30px 5px;
+}
+
+.share-icon img {
+    max-width: 30px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
